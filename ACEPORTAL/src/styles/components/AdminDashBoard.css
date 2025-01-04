@@ -1,0 +1,68 @@
+.admin-dashboard {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-dashboard h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .admin-dashboard__error {
+    color: red;
+    text-align: center;
+  }
+  
+  .admin-dashboard__success {
+    color: green;
+    text-align: center;
+  }
+  
+  .admin-dashboard__section {
+    margin-bottom: 20px;
+  }
+  
+  .admin-dashboard__section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .admin-dashboard__delete-btn {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .admin-dashboard__delete-btn:hover {
+    background-color: darkred;
+  }
+  
+  .admin-dashboard__submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .admin-dashboard__submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

@@ -1,0 +1,46 @@
+.newsletters {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .newsletters h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .newsletters__error {
+    color: red;
+    text-align: center;
+  }
+  
+  .newsletters__list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .newsletters__item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .newsletters__item h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .newsletters__item p {
+    margin: 5px 0;
+    line-height: 1.5;
+  }
+  
+  .newsletters__date {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  

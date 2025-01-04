@@ -1,0 +1,77 @@
+.account-page {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .account-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .account-page__error {
+    color: red;
+    text-align: center;
+  }
+  
+  .account-page__success {
+    color: green;
+    text-align: center;
+  }
+  
+  .account-page__details p {
+    margin: 10px 0;
+  }
+  
+  .account-page__edit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .account-page__edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .account-page__form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .account-page__form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .account-page__save-btn,
+  .account-page__cancel-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .account-page__cancel-btn {
+    background-color: #ff4d4d;
+  }
+  
+  .account-page__save-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .account-page__cancel-btn:hover {
+    background-color: #e60000;
+  }
+  
